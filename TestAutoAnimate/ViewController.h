@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)click:(id)sender;
 
+@property (strong, nonatomic) IBOutlet UIView *bottomView;
 @end
 
